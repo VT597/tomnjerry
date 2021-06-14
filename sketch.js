@@ -7,19 +7,19 @@ var tom, tom_running;
 function preload() {
     //load the images here
 
-    groundImg = loadImage("images/garden.png");
+    groundImg = loadImage("garden.png");
 
-    jerryImg = loadAnimation("images/mouse1.png");
+    jerryImg = loadAnimation("mouse1.png");
 
-    jerryImage4 = loadAnimation("images/mouse4.png");
+    jerryImage4 = loadAnimation("mouse4.png");
 
-    jerry_run = loadAnimation("images/mouse2.png", "images/mouse3.png");
+    jerry_run = loadAnimation("mouse2.png", "mouse3.png");
 
-    tomImg1 = loadAnimation("images/cat1.png");
+    tomImg1 = loadAnimation("cat1.png");
 
-    tomImg4 = loadAnimation("images/cat4.png");
+    tomImg4 = loadAnimation("cat4.png");
 
-    tom_running = loadAnimation("images/cat2.png", "images/cat3.png");
+    tom_running = loadAnimation("cat2.png", "cat3.png");
 
 }
 
